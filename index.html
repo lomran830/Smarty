@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Smarty</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="swiper-master/package/css/swiper.min.css">
+  </head>
+  <body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide" style="background-image:url(imges/slider1.jpg)">
+        <div class="overlay">
+          <div class="caption">
+            <h1>Welcome! this is smarty</h1>
+            <p class="hidden-xs">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button type="button" name="button" class="hidden-xs">Learn More</button>
+          </div>
+        </div>
+        </div>
+        <div class="swiper-slide" style="background-image:url(imges/slider2.jpg)">
+          <div class="overlay">
+            <div class="caption caption-slider2">
+              <h2>Sale</h2>
+              <h1 class="title-slider2">
+                Duis autem vel eum iriure Lorem ipsum dolor
+                  </h1>
+                <p class="hidden-xs">
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu.
+                </p>
+              <button type="button" name="button" class="hidden-xs">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image:url(imges/slider3.jpg)">
+          <div class="overlay">
+            <div class="caption caption-slider3">
+              <h2>for women</h2>
+              <h1 >
+              Duis autem vel eum iriure Lorem ipsum dolor
+              </h1>
+              <button type="button" name="button" class="hidden-xs">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image:url(imges/slider4.jpg)">
+          <div class="overlay">
+            <div class="caption caption-slider4">
+              <h1>
+              Fashion dresses
+                </h1>
+              <button type="button" name="button" class="hidden-xs">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+<div class="outer">
+  <div class="list-in-small visible-sm" id="list">
+    <img src="imges/menu.png" alt="">
+  </div>
+    <div class="menu" id="menu">
+        <div class="inner-menu">
+          <div class="info">
+            <div class="img">
+              <img src="imges/logo.png" alt="">
+            </div>
+            <nav>
+              <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="conatact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <input type="search" name="" value="" placeholder="Search...">
+          </div>
+        </div>
+    </div>
+</div>
+    <!--list -->
+
+    <!--plugin-->
+  	<script src="swiper-master/package/js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          direction: 'vertical',
+           grabCursor: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+      </script>
+  </body>
+</html>
